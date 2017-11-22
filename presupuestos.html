@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title> Presupuestos </title>
+
+     <!-- Normalize CSS -->
+
+	<link rel="stylesheet" href="css/normalize.css">
+
+     <!-- Materialize CSS -->
+	<link rel="stylesheet" href="css/materialize.min.css">
+
+     <!-- Material Design Iconic Font CSS -->
+	<link rel="stylesheet" href="css/material-design-iconic-font.min.css">
+
+    <!-- Malihu jQuery custom content scroller CSS -->
+	<link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+    <!-- Sweet Alert CSS -->
+    <link rel="stylesheet" href="css/sweetalert.css">
+
+    <!-- MaterialDark CSS -->
+	<link rel="stylesheet" href="css/style.css">
+
+
+
+<!-- El otro side nav-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+
+<!-- Add to homescreen for Chrome on Android -->
+<meta name="mobile-web-app-capable" content="yes">
+<link rel="icon" sizes="192x192" href="images/android-desktop.png">
+
+<!-- Add to homescreen for Safari on iOS -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Material Design Lite">
+<link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+
+<!-- Tile icon for Win8 (144x144 + tile color) -->
+<meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+<meta name="msapplication-TileColor" content="#3372DF">
+
+<link rel="shortcut icon" href="images/favicon.png">
+
+<!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
+<!--
+<link rel="canonical" href="http://www.example.com/">
+-->
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+#view-source {
+	position: fixed;
+	display: block;
+	right: 0;
+	bottom: 0;
+	margin-right: 4px;
+	margin-bottom: 40px;
+	z-index: 900;
+}
+</style>
+
+
+</head>
+
+
+
+
+
+<body>
+    <!-- Nav Lateral -->
+		<div class="demo-layout">
+      <div class="row">
+        <div class="sidebar col s3">
+          <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
+            <header class="demo-drawer-header">
+              <img src="assets/img/user.png" class="demo-avatar">
+              <div class="demo-avatar-dropdown">
+                <span>Nombre de usuario</span>
+              </div>
+            </header>
+            <div class="collection demo-navigation mdl-navigation mdl-color--blue-grey-800">
+              <a class="collection-item mdl-navigation__link" href="home.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">dashboard</i>Dashboard</a>
+              <a class="collection-item mdl-navigation__link" href="clientes.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">people</i>Clientes</a>
+              <a class="collection-item mdl-navigation__link" href="ventas.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">shopping_cart</i>Ventas</a>
+              <a class="collection-item mdl-navigation__link" href="cobranzas.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">money</i>Cobranzas</a>
+              <a class="collection-item mdl-navigation__link" href="presupuestos.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">attach_money</i>Presupuestos</a>
+              <a class="collection-item mdl-navigation__link" href="ordenes.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">room_service</i>Orden de servicios</a>
+              <a class="collection-item mdl-navigation__link" href="talleres.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">work</i>Talleres</a>
+              <a class="collection-item mdl-navigation__link" href="facturacion.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">playlist_add_check</i>Facturación</a>
+              <a class="collection-item mdl-navigation__link" href="reportes.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">report</i>Reportes</a>
+              <div class="mdl-layout-spacer"></div>
+              <a class="collection-item mdl-navigation__link" href="ayuda.html"><i class="mdl-color-text--blue-grey-400 material-icons" role="presentation">help_outline</i><span class="visuallyhidden">Help</span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- Page content -->
+    <section class="ContentPage full-width">
+        <!-- Nav Info -->
+
+
+
+
+        <nav>
+          <div class="nav-wrapper">
+            <a href="" class="brand-logo">&nbsp;&nbsp;Presupuestos </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+
+              <li><label for="">Buscar</label><a href="#" class="tooltipped waves-effect waves-light btn-Search" data-position="bottom" data-delay="50" data-tooltip="Search"><i class="zmdi zmdi-search"></i></a></li>
+              <li><a href=""></a></li>
+
+            </ul>
+          </div>
+        </nav>
+
+        <!--El menu desplegable  -->
+        <ul id="dropdown2" class="dropdown-content">
+          <li><a href="#">ventas</a></li>
+          <li><a href="#">business development</a></li>
+          <li><a href="#">Base de datos</a></li>
+          <li><a href="#">Serigrafía</a></li>
+        </ul>
+        <a class="btn dropdown-button" href="#!" data-activates="dropdown2">Area<i class="material-icons right">arrow_drop_down</i></a>
+
+
+
+
+        <div class="row">
+
+
+            <!-- Timeline -->
+            <article class="col s12">
+              <table class="highlight">
+    <thead>
+      <tr>
+          <th>Actividad</th>
+          <th>Compañía</th>
+          <th>Contacto</th>
+          <th>Valor $</th>
+          <th>Puesta por (owned by)</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td>Vender 50 playeras</td>
+        <td>super clothes</td>
+        <td>Alvin Pérez</td>
+        <td>$300</td>
+        <td>David</td>
+      </tr>
+      <tr>
+        <td>Testear un software</td>
+        <td>LA Company</td>
+        <td>Juan Rodriguez</td>
+        <td>$450</td>
+        <td>Luis</td>
+      </tr>
+      <tr>
+        <td>Vender 300 tazas</td>
+        <td>Tazas S.A</td>
+        <td>Paola Gutierrez</td>
+        <td>$1500</td>
+        <td>Otro usuario del CRM</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+            </article>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-MaterialDark">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">
+                            To better support on CSS components and icons, please visit the official websites of the technologies used.
+                            <br>
+                            Para mejor soporte sobre los componentes CSS e iconos, por favor visite los sitios web oficiales de las tecnologias usadas
+                        </p>
+                    </div>
+                    <div class="col l4 offset-l2 s12">
+                        <h5 class="white-text">Technologies used</h5>
+                        <ul>
+                            <li><a class="grey-text text-lighten-3" href="http://materializecss.com/">Materialize</a></li>
+                            <li><a class="grey-text text-lighten-3" href="http://zavoloklom.github.io/material-design-iconic-font/icons.html">Material Design Iconic Font</a></li>
+                            <li><a class="grey-text text-lighten-3" href="http://t4t5.github.io/sweetalert/">Sweet Alert</a></li>
+                            <li><a class="grey-text text-lighten-3" href="http://manos.malihu.gr/jquery-custom-content-scroller/">jQuery custom content scroller</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="NavLateralDivider"></div>
+            <div class="footer-copyright">
+                <div class="container center-align">
+                    © 2017
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- Sweet Alert JS -->
+    <script src="js/sweetalert.min.js"></script>
+
+    <!-- jQuery -->
+
+	<script>window.jQuery || document.write('<script src="js/jquery-2.2.0.min.js"><\/script>')</script>
+
+    <!-- Materialize JS -->
+	<script src="js/materialize.min.js"></script>
+
+    <!-- Malihu jQuery custom content scroller JS -->
+	<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- MaterialDark JS -->
+	<script src="js/main.js"></script>
+</body>
+</html>
