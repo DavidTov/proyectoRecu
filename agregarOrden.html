@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<title> Talleres </title>
+	<title> Agregar orden </title>
 
      <!-- Normalize CSS -->
 
@@ -119,7 +119,7 @@
 
         <nav>
           <div class="nav-wrapper">
-            <a href="" class="brand-logo">&nbsp;&nbsp;Talleres</a>
+            <a href="" class="brand-logo">&nbsp;&nbsp;Agregar orden</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
 
               <li><label for="">Buscar</label><a href="#" class="tooltipped waves-effect waves-light btn-Search" data-position="bottom" data-delay="50" data-tooltip="Search"><i class="zmdi zmdi-search"></i></a></li>
@@ -130,54 +130,89 @@
         </nav>
 
 
+
+
         <div class="row">
 
 
-            <!-- Timeline -->
+            <!-- Formulario -->
             <article class="col s12">
-              <table class="highlight">
-    <thead>
-      <tr>
-          <th>Nombre</th>
-          <th>Actividad</th>
-          <th>Estatus</th>
-          <th>Compañía</th>
-          <th>Fecha de vencimiento</th>
-      </tr>
-    </thead>
+              <div class="container">
+                  <div class="row">
+                      <h4 class="center-align">Nueva Orden de servicio</h4>
+                      <form class="col s12">
+                      <div class="row">
+                          <div class="input-field col s6">
+                              <input placeholder="" id="first_name" type="text" class="validate">
+                              <label for="first_name">Nombre compañía</label>
+                          </div>
+                          <div class="input-field col s6">
+                              <input id="last_name" type="text" class="validate">
+                              <label for="last_name">Nombre proveedor</label>
+                          </div>
+                      </div>
 
-    <tbody>
-      <tr>
-        <td>Juan Rodriguez</td>
-        <td>Mantenimiento de equipos de cómputo</td>
-        <td>Finalizado</td>
-        <td>LA Company</td>
-        <td>22/11/2017</td>
-      </tr>
-      <tr>
-        <td>Pedro hernández</td>
-        <td>Implementar db en sistema de inventarios</td>
-        <td>En ejecución</td>
-        <td>LA Company</td>
-        <td>23/11/2017</td>
-      </tr>
-      <tr>
-        <td>Ana Martínez</td>
-        <td>Desarrollo de un nuevo producto</td>
-        <td>Finalizado</td>
-        <td>Pymes</td>
-        <td>23/11/2017</td>
-      </tr>
-    </tbody>
-  </table>
+                      <div class="row">
+                          <div class="input-field col s6">
+                              <input placeholder="" id="first_name" type="text" class="validate">
+                              <label for="first_name">Términos de entrega</label>
+                          </div>
+                          <div class="input-field col s6">
+                              <input id="last_name" type="text" class="validate">
+                              <label for="last_name">Términos de pago</label>
+                          </div>
+                      </div>
+
+                      <div class="row">
+                          <div class="input-field col s6">
+                              <input placeholder="" id="first_name" type="text" class="validate">
+                              <label for="first_name">Cantidad de artículos</label>
+                          </div>
+                          <div class="input-field col s6">
+                              <input id="last_name" type="text" class="validate">
+                              <label for="last_name">precio por unidad</label>
+                          </div>
+                      </div>
+
+                      <div class="row">
+                          <div class="input-field col s6">
+                              <input placeholder="" id="first_name" type="text" class="validate">
+                              <label for="first_name">Coste de envío</label>
+                          </div>
+                          <div class="input-field col s6">
+                              <input id="last_name" type="text" class="validate">
+                              <label for="last_name">Coste total</label>
+                          </div>
+                        
+
+                      </div>
+
+                      </form>
 
 
-  <br>
-  <a class="waves-effect waves-light btn" href="#"><i class="material-icons left">add_circle_outline</i>Agregar</a>
+                  </div>
+
+                  <!-- Modal Trigger -->
+<a class="waves-effect waves-light btn modal-trigger" href="ordenes.html">Agregar</a>
+
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <h4>Modal Header</h4>
+    <p>A bunch of text</p>
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+  </div>
+</div>
+              </div>
+
+
 
 
             </article>
         </div>
+
 
 				<br>
 				<br>
@@ -200,8 +235,6 @@
         </footer>
     </section>
     </section>
-
-
 
 
 
